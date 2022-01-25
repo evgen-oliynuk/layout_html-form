@@ -17,27 +17,33 @@
         <div class="form-field" >
           <label>
             Surname:
-            <input type="text">
+            <input 
+            type="text">
           </label>
         </div>
         <div class="form-field">
           <label>Name:
-            <input type="text">
+            <input 
+              type="text">
           </label>
         </div>
         <div class="form-field">
           <label>How old are you?
-            <input type="text"
-            min="1"max="100"placeholder="12">
+            <input 
+              type="text"
+              min="1"
+              max="100"
+              placeholder="12">
           </label>
         </div>
         <div class="form-field">
           <label>Full date of birth: 
-            <input type="date"
-            placeholder="mm / dd / yyyy">
+            <input 
+              type="date"
+              placeholder="mm / dd / yyyy">
           </label>
         </div>
-        <label> I accept the term of the agreement
+        <label>I accept the term of the agreement
           <input type="checkbox">
         </label>
       </fieldset>
@@ -47,13 +53,15 @@
         <legend>Registration</legend>
         <label>
           E-mail
-          <input name="E-mail:"
-        placeholder="email@example.com">
+          <input 
+            name="E-mail:"
+            placeholder="email@example.com">
         </label>
         <label>Password:
-          <input type="password"
-          minlength="6" 
-          maxlength="30">
+          <input
+            type="password"
+            minlength="6" 
+            maxlength="30">
         </label>
       </fieldset>
     </form>
@@ -62,26 +70,39 @@
         <legend>An interesting fact about you!</legend>
         <label class="label">
         Do you love cats?
-          <input type="radio" name="animal" value="Yes">
-          <input type="radio" name="animal" value="No">
+          <input 
+            type="radio" 
+            name="animal" 
+            value="Yes">
+          <input
+            type="radio"
+            name="animal"
+            value="No">
         </label>
         <label class="label">What is you favorite color?
-          <input type="color" value="#e66465">
+          <input
+            type="color"
+            value="#e66465">
         </label>
         <label class="label">What time do you go to bed?
           <input type="time" 
-          min="09:00" max="18:00" required>
+          min="09:00" 
+          max="18:00" 
+          required>
         </label>
         <label class="label">What are you favorite brand of cars?</label>
-        <select>
+        <select class="cars">
           <option value="BMW">BMW</option>
           <option value="Audi">Audi</option>
           <option value="Lada">Lada</option>
         </select>
         </label>
         <label class="label">How do rate our work?
-          <input type="range" name="volue"
-          min="0" max="10">
+          <input
+            type="range"
+            name="volue"
+            min="0"
+            max="10">
         </label>
       </fieldset>
     </form>
@@ -93,7 +114,7 @@
         </label>
         <label class="label">
         Would you recommend us?
-          <select>
+          <select class="answer">
             <option value="yes">yes</option>
             <option value="no">no</option>
           </select>
